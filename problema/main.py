@@ -1,3 +1,3 @@
 import calculadora
-calculadora.__init__()
+calculadora.__init__
 print("acabou")
