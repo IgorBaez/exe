@@ -1,3 +1,3 @@
 def divide(valo1,valor2):
-    valor=valo1/valor2
-    return valor
+    calcular=valo1/valor2
+    return calcular
