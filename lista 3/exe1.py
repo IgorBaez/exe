@@ -5,7 +5,7 @@ class Pessoa:
     
 
     def exibir(self):
-        print('nome:',self.nome,'idade:',self.idade)
+        print('nome:',self.nome,'\nidade:',self.idade)
         
 pessoa1=Pessoa("baz",23)
 pessoa1.exibir()
