@@ -1,4 +1,4 @@
-class aluno:
+class Aluno:
     def __init__(self,nota):
         self.nota=nota
     def exibir(self):
@@ -6,8 +6,8 @@ class aluno:
             print("aprovado")
         else:
             print("reprovado")
-nota=aluno(10)
-nota1=aluno(6)
+nota=Aluno(10)
+nota1=Aluno(6)
 nota.exibir()
 nota1.exibir()
         

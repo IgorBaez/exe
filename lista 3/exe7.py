@@ -1,4 +1,4 @@
-class produto:
+class Produto:
     def __init__(self,nome,preco):
         self.nome=nome
         self.preco=preco
@@ -8,8 +8,8 @@ class produto:
         return valorFinal
        
     
-produto1=produto("banana",3.92)
-produto2=produto("maçã",4.72)
+produto1=Produto("banana",3.92)
+produto2=Produto("maçã",4.72)
 print("Valor do item com desconto:", produto1.desconto())
 print("Valor do item com desconto:",produto2.desconto())
 
