@@ -5,20 +5,19 @@ class ContaBancaria:
         def deposito(self, valor):
             if valor > 0:
                 self.saldo += valor
-                print(f"Depósito de R$",valor," realizado com sucesso!")
+                print("Depósito de R$",valor," realizado com sucesso")
             else:
-                print("Valor de depósito inválido. O valor deve ser positivo.")
+                print("Valor inválido")
     
         def sacar(self, valor):
-            # Método para sacar dinheiro da conta
             if valor > 0:
                 if valor <= self.saldo:
                     self.saldo -= valor
-                    print(f"Saque de R${valor:.2f} realizado com sucesso!")
+                    print ("Saque de R$",valor," realizado com sucesso!")
                 else:
-                    print("Saldo insuficiente para o saque.")
+                    print("Saldo insuficiente")
             else:
-                print("Valor de saque inválido. O valor deve ser positivo.")
+                print("Valor de saque inválido")
     
 
 baz=ContaBancaria(10)
