@@ -3,7 +3,7 @@ class Circulo:
         self.raio=raio
       
     def __str__(self):
-        pi = 3.14
+        pi = 3.14159
         return 2*pi*self.raio
     
 pessoa1=Circulo(5)
