@@ -4,15 +4,17 @@ class Pessoa:
         self.idade=idade
         self.peso=peso
         self.altura=altura
-    def envelhecer(self):
+    def crescer(self):
         if self.idade<21:
             x=(21-self.idade)*0.05
             print(self.altura+x)
         elif self.idade>20:
             print("infelizmente não cresce mais ")
+    def engordar(self,peso):
+        self.peso+=peso
 
-pessoa1=Pessoa("baz",21,75,1.35)
-pessoa1.envelhecer()
+pessoa1=Pessoa("baz",10,75,1.35)
+pessoa1.crescer()
 
     
     
