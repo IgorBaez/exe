@@ -2,7 +2,7 @@ from aula27 import *
 class Conta_premium(Conta):
     def __str__(self):
         return f"saldo:{self.saldo}"
-    
+        
     def __init__(self,numero_conta:int,titular:str,saldo:float,limite_emprestimo:float):
         super().__init__(numero_conta,titular,saldo)
         self.limite_emprestimo=limite_emprestimo
