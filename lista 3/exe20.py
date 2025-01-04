@@ -1,7 +1,7 @@
 class Pessoa:
     def __init__(self,altura):
         self.altura=altura
-    def converter(self):
+    def verificar(self):
         if self.altura>1.75:
             print("mais alta")
         else:
@@ -9,5 +9,5 @@ class Pessoa:
 
 x=Pessoa(1.75)
 y=Pessoa(1.77)
-y.converter()
-x.converter()
+y.verificar()
+x.verificar()

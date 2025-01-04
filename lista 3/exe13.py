@@ -1,4 +1,4 @@
-class veiculo:
+class Veiculo:
     def __init__(self,modelo, velocidade):
         self.modelo=modelo
         self.velocidade=velocidade 
@@ -7,6 +7,6 @@ class veiculo:
         incremento+=self.velocidade
         print("modelo :",self.modelo,'\nvelocidade anterior:',self.velocidade,"\nvelocidade atual :",incremento)
 
-x=veiculo("ferrari",290)
+x=Veiculo("ferrari",290)
 x.aumento_Velo(200)
 
